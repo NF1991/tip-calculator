@@ -1,0 +1,108 @@
+* {
+  font-size: 10px;
+  color: #121212;
+  font-family: "Montserrat", sans-serif;
+}
+
+main {
+  max-width: 50rem;
+  margin: 3rem auto;
+  background: rgb(195, 55, 100);
+  background: linear-gradient(
+    30deg,
+    rgba(195, 55, 100, 1) 28%,
+    rgba(29, 38, 113, 1) 100%
+  );
+  padding: 3rem 1.6rem 6rem 1.6rem;
+  border-radius: 2rem;
+  -webkit-box-shadow: 10px 10px 13px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 13px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 13px 0px rgba(0, 0, 0, 0.75);
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin: 0;
+  padding-bottom: 3rem;
+}
+
+section {
+  background-color: #f5f5f5;
+  font-size: 1.8rem;
+  margin-bottom: 1.6rem;
+  padding: 0 1.6rem;
+  border-radius: 1rem;
+  -webkit-box-shadow: inset 10px 10px 42px -22px rgba(199, 199, 199, 1);
+  -moz-box-shadow: inset 10px 10px 42px -22px rgba(199, 199, 199, 1);
+  box-shadow: inset 10px 10px 42px -22px rgba(199, 199, 199, 1);
+}
+
+section > div {
+  padding: 1.6rem 0;
+}
+
+.bill {
+  display: flex;
+}
+
+.bill label {
+  flex: 1;
+  align-self: center;
+}
+
+.bill input {
+  flex: 3;
+}
+
+input[type="number"] {
+  font-family: inherit;
+  background-color: #f4f4f5;
+  font-size: 1.6rem;
+  border: 1px solid lightgrey;
+  border-radius: 0.5rem;
+  padding: 0.8rem 0 0.8rem 0.8rem;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.total {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+.range {
+  appearance: none;
+  width: 100%;
+  height: 8px;
+  background-color: #eee;
+  margin-top: 1.3rem;
+  border-radius: 0.3rem;
+  outline-color: #c33764;
+}
+
+.range::-webkit-slider-thumb {
+  appearance: none;
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 50%;
+  background: #c33764;
+  cursor: pointer;
+}
+
+.range::-moz-range-thumb {
+  appearance: none;
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 50%;
+  background: #c33764;
+  cursor: pointer;
+  border: none;
+}
+
+.range::-moz-focus-outer {
+  border: 0;
+}
