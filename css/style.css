@@ -15,9 +15,9 @@ main {
   );
   padding: 3rem 1.6rem 6rem 1.6rem;
   border-radius: 2rem;
-  -webkit-box-shadow: 10px 10px 13px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 10px 10px 13px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 10px 10px 13px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 29px 2px rgba(176, 176, 176, 1);
+  -moz-box-shadow: 0px 0px 29px 2px rgba(176, 176, 176, 1);
+  box-shadow: 0px 0px 29px 2px rgba(176, 176, 176, 1);
 }
 
 h1 {
@@ -25,6 +25,11 @@ h1 {
   font-size: 3rem;
   margin: 0;
   padding-bottom: 3rem;
+  color: #f5f5f5;
+}
+
+span {
+  font-size: 1.6rem;
 }
 
 section {
@@ -49,10 +54,19 @@ section > div {
 .bill label {
   flex: 1;
   align-self: center;
+  font-size: 1.6rem;
 }
 
 .bill input {
   flex: 3;
+}
+
+.split-input {
+  font-size: 1.6rem;
+}
+
+.tip-input {
+  font-size: 1.6rem;
 }
 
 input[type="number"] {
@@ -62,6 +76,7 @@ input[type="number"] {
   border: 1px solid lightgrey;
   border-radius: 0.5rem;
   padding: 0.8rem 0 0.8rem 0.8rem;
+  width: 100%;
 }
 
 .space-between {
